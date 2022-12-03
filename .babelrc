@@ -1,0 +1,15 @@
+//file cấu hình cho thư viện babel, lưu ý file này sẽ không được tự động compile
+{
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "alias": {
+            "~": "./src"
+          }
+        }
+      ]
+    ]
+  }
+  
+  
